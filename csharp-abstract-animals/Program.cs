@@ -12,7 +12,7 @@ Delfino doggy = new Delfino();
 doggy.Verso();
 doggy.Eat();
 
-
+Uccello pulcinella = new Uccello();
 Uccello uccello = new Uccello();
 Pesce pesce = new Pesce();
 

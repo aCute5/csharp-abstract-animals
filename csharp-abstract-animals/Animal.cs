@@ -106,6 +106,25 @@ namespace csharp_abstract_animals
                 Console.WriteLine("Sto nuotando");
             }
         }
+        public class UccelloNuotatore : Animale,INuota, IVola
+        {
+            public override void Eat()
+            {
+                Console.WriteLine("Ucello nuovtator");
+            }
+            public override void Verso()
+            {
+                Console.WriteLine("Pesci");
+            }
+            public void Nuota()
+            {
+                Console.WriteLine("Sto Nuotando");
+            }
+            public void Vola()
+            {
+                Console.WriteLine("Posso volare anche");
+            }
+        }
 
     }
 }
